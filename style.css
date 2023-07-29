@@ -1,0 +1,291 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+table{
+background-color: aquamarine;
+position: relative;
+left: 50%;
+}
+/* body{
+  margin-top: 30px;
+} */
+body{
+  background-image: url(images.jpg);
+  background-size: cover;
+ background-repeat: repeat;
+  height: 100vh;
+  width: fit-content;
+  
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: yellow;
+    /* display: flex; */
+    /* flex-direction: row; */
+    
+  }
+  #butt{
+    border: 1px solid goldenrod;
+    background-color: aqua;
+    margin: 10px;
+   margin-left: 0;
+   padding: 10px;
+   border-radius: 15px;
+  }
+  #animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    /* display: flex;
+    flex-direction: row; */
+  }
+  #box{
+   position: relative;
+   left: 30%;
+   margin-top: 20px;
+  }
+  #one{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    background-color: rgb(13, 255, 0);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #two{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    background-color: chocolate;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+
+  }
+  #three{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 250px;
+    background-color: rgb(9, 159, 129);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+
+  }
+  #fourr{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 350px;
+    background-color: rgb(9, 159, 129);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+
+  }
+  
+  #animat {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(13, 255, 0);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #anima {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(18, 209, 202);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #anim {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(194, 20, 233);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  } 
+  #ani {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(0, 55, 255);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  } 
+  #an {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(78, 9, 53);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  } 
+  #a {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    /* left: 50px; */
+    background-color: rgb(112, 225, 13);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  } 
+  #animation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #at{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 100px; 
+    left: 0px;
+    display: none;
+    background-color:rgb(193, 7, 7);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+   #as{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    display: none;
+    background-color:rgb(2, 68, 34);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #am{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:100px; 
+    left: 50px;
+     display: none;
+    background-color:rgb(117, 7, 153);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  } 
+   #threeone{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:rgb(15, 177, 236);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #threetwo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:rgb(67, 8, 177);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #threethree{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:rgb(100, 170, 227);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  } 
+   #threefour{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:rgb(127, 10, 245);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  } 
+  #fourone{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:rgb(19, 211, 173);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #fourtwo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:rgb(230, 147, 5);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #fourthree{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:rgb(57, 245, 10);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+
+  #fiveone{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:hsl(0, 98%, 20%);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #fivetwo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:rgb(57, 17, 81);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
+  #fivethree{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:rgba(10, 210, 245, 0.684);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+  }
